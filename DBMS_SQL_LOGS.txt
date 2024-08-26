@@ -1,0 +1,37 @@
+DBMS_SQL_16/08/2024
+
+1)
+	CREATE TABLE Book_SVY
+	(book_no NUMBER(4), book_name VARCHAR(40), book_type VARCHAR(40));
+   
+2)
+	DESCRIBE Book_SVY
+
+3)
+	INSERT INTO Book_SVY (book_no, book_name, book_type)
+	VALUES (101, 'DBMS', 'PROGRAMMING');
+
+4)
+	select * from Book_SVY
+
+DBMS_SQL_22/08/2024
+
+5)
+	DROP TABLE Book_SVY;
+
+6)
+	ALTER TABLE Book_SVY
+
+
+
+
+
+TEMP
+
+INSERT INTO Book_SVY (book_no, book_name, book_type)
+VALUES 
+(103, 'Computer Networks', 'Networking'),
+(104, 'Statistics', 'Mathematics'),
+(105, 'Algorithms', 'Algorithms'),
+(106, 'Python', 'PROGRAMMING'),
+(107, 'JavaScript', 'Web-Development');
